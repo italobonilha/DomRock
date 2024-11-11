@@ -195,6 +195,53 @@ Link do vídeo da entrega no Youtube:
 
 
 </details>
+<details>
+  <summary><strong>3° Sprint</strong></summary>
+
+## 🎯 Backlog
+
+| Rank | Prioridade | User Story       | Sprint | Estimativa | Requisitos Relacionados          |
+|------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------|----------------------------------|
+| 7    | Baixa       | Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.         | 3      | 12          | RF1, RNF2                        |                            |
+| 8    | Baixa       | Tutorial para o usuário: Como um representante da marca eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                                      | 3      | 2          | RNF5                               |
+
+## 🎯 Sprint Backlog
+
+| Rank | Task | Status | Tag |
+|------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| 1    | Integração com a interface. | Em Progresso | Frontend/ IA |
+| 2    | Modularização. | Em Progresso | IA |
+| 3    | Implementar, testar e comparar diferentes modelos de IA. | Em Progresso | IA |
+| 4    | Desenvolver Engenharia de Prompts.  | Em Progresso | IA |
+| 5    | Aperfeiçoamento e documentação de testes de temperatura. | Em Progresso | Testes/ IA |
+| 6    | ⁠Testes de controle para entrega final segura | Em Progresso.  | Testes/ IA |
+| 7    | Criação do video tutorial. | Em progresso | Usabilidade |
+
+
+
+
+## 📌 DOR - Definition of Ready
+- **1° User Stories:** As user stories devem estar claras e objetivas, com critérios de aceitação bem definidos.
+- **2° Dados:** Os dados precisam estar separados em grupos para que seja possível realizar comparativo entre produtos.
+- **3° Ambiente:** O ambiente de todos os integrantes deve estar configurado para testes de aplicação (inserção de datasets e modelos a serem usados).
+- **4° Integração da Interface:** A interface frontend deve estar pronta para ser integrada ao projeto de forma que realize todas as funçoões de forma eficiente.
+- **5° Vídeo:** O Tutorial deve abranger todas as funcionalidades do projeto.
+
+### 📄 User Stories e Critérios de Aceitação
+#### US7: Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.
+**Critérios de Aceitação:**
+- CA1: A interface gráfica deve estar apresentada em uma única tela.
+- CA2: Ao lado direito devem existir caixas de texto com a pergunta do usuário e ao lado esquerdo as respostas do chat.
+- CA3: A interface deve seguir o modelo apresentado no mockup.
+- CA4: A interface deve possuir uma caixa de texto com um botão para enviar a pergunta na sua parte inferior.
+- CA5: A interface deve estar conectada ao backend de forma que ela tenha acesso aos dados.
+
+#### US8: Tutorial para o usuário: Como um representante da marca eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.
+**Critérios de Aceitação:**
+- CA1: O Tutorial deve apresentar todas as funcionalidades do projeto em um video de até 3 minutos.
+- CA2: O vídeo deve estar disponível para visualização na plataforma YouTube.
+
+</details>
 
 
   ## :blue_book: Conhecimentos do Semestre  
