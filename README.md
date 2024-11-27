@@ -34,10 +34,10 @@ Este repositório é dedicado ao desenvolvimento da API para o 6º semestre, em 
         <td> Debora Taira</td>
         <td> Ítalo Bonilha </td>
         <td> Francisco Quirino </td>
-        <td> Gabriel Angelis</td>
         <td> Isabel Reis </td>
         <td> Pedro Seraggi </td>
         <td> Renato Passos </td>
+        <td> Vitor Henrique </td>
     
 
 
@@ -243,6 +243,66 @@ Link do vídeo da entrega no Youtube:
 
 </details>
 
+<details>
+  <summary><strong>3° Sprint</strong></summary>
+
+## 🎯 Backlog
+
+| Rank | Prioridade | User Story | Sprint | Estimativa | Requisitos Relacionados |
+|------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------|----------------------------------|
+| 7    | Baixa       | Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.         | 3      | 12          | RF1, RNF2                        |                            |
+| 8    | Baixa       | Tutorial para o usuário: Como um representante da marca e usuário final, eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                                      | 3      | 2          | RNF5                               |
+| 9    | Baixa       | Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização.                                                      | 3      | 12          | RF7                            |
+
+## 🎯 Sprint Backlog
+
+| Rank | Task | Status | Tag |
+|------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| 1    | Criar endpoints para integração da IA com a interface. | Concluído | Frontend/ IA |
+| 2    | Modularização. | Concluído | IA |
+| 3    | Implementar, testar e comparar diferentes modelos de IA. | Concluído | IA |
+| 4    | Desenvolver Engenharia de Prompts.  | Concluído | IA |
+| 5    | Aperfeiçoamento e documentação testes de temperatura. | Concluído | Testes/ IA |
+| 6    | ⁠Testes de controle para entrega final segura. | Concluído.  | Testes/ IA |
+| 7    | ⁠Botão copiar resposta do chat.  | Concluído | Frontend/ IA |
+| 8    | ⁠Função sugerir pergunta. | Concluído  | Frontend/ IA |
+| 9    | Criação do video tutorial. | Concluído | Usabilidade |
+
+
+
+
+## 📌 DOR - Definition of Ready
+- **1° User Stories:** As user stories devem estar claras e objetivas com critérios de aceitação bem definidos.
+- **2° Ambiente:** O ambiente de todos deve estar configurado para testes de aplicação (com inserção de datasets e modelos a serem usados).
+- **3° Integração da Interface:** A interface frontend deve estar pronta para ser integrada ao projeto de forma que realize todas as funções de forma eficiente.
+- **4° Vídeo:** O Tutorial deve abranger todas as funcionalidades do projeto.
+
+### 📄 User Stories e Critérios de Aceitação
+#### US7: Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.
+**Critérios de Aceitação:**
+- CA1: A interface gráfica deve estar apresentada em uma única tela.
+- CA2: Ao lado esquedo devem existir caixas de texto com a pergunta do usuário e ao lado direito as respostas do chat e ao topo 3 opções clicáveis com sugestões de perguntas a serem feitas para o chat.
+- CA3: A interface deve seguir o modelo apresentado no mockup.
+- CA4: A interface deve possuir uma caixa de texto com um botão para enviar a pergunta na sua parte inferior.
+- CA5: A interface deve possuir botões para a edição e cópia de mensagens.
+- CA6: A interface deve estar conectada ao backend de forma que ela tenha acesso aos dados.
+
+#### US8: Tutorial: para o usuário: Como um representante da marca eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.
+**Critérios de Aceitação:**
+- CA1: O Tutorial deve apresentar todas as funcionalidades do projeto em um video de até 3 minutos.
+- CA2: O vídeo deve estar disponível para visualização na plataforma YouTube.
+
+#### US9:  Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização.
+**Critérios de Aceitação:**
+- CA1:  O Chat deve conter um sistema de login atrelado a um histórico de forma que garanta a segurança e o armazenamento para visualização das interações do usuário.
+- CA2: O Chat deve possuir uma área específica para ser possível o usuário selecionar suas interações para visualização.
+
+Link do Vídeo no Youtube: https://youtu.be/qaA40EEHf4c
+</details>
+
+
+
+
 
   ## :blue_book: Conhecimentos do Semestre  
 Abaixo estão os conhecimentos aplicados durante o nosso semestre:
@@ -275,8 +335,9 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 #### RF6: Recomendação de produtos baseado no interesse do usuário
   - O sistema deve permitir que os representantes da marca façam perguntas sobre os produtos presentes na base de dados da B2W e com base nas reviews e notas gerais gere recomendações de acordo com seu interesse.
 
+#### RF7: Segurança e registro
+  - O Chat deve conter um sistema que garanta a segurança e o armazenamento das interações do usuário.
  
-
 ### 🔨 Requisitos Não Funcionais (RNF)   
 
 #### RNF1: BD Vetorial FAISS
@@ -314,6 +375,8 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 | 6  | Média       | Análise demográfica: Como um representante da marca eu quero entender a relação entre as avaliações e as características demográficas dos consumidores para poder personalizar minhas ações de vendas com base nas preferências e características de diferentes segmentos de público-alvo.                   | 2      | 22          | RF5, RNF1, RNF3, RNF4                               |
 | 7    | Baixa       | Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.         | 3      | 12          | RF1, RNF2                        |                            |
 | 8    | Baixa       | Tutorial para o usuário: Como um representante da marca eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                                      | 3      | 2          | RNF5                               |
+| 9    | Baixa       | Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização.                                                      | 3      | 12          | RF7                            |
+
                                                                                                                                                                                                              
 
 
